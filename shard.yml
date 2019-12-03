@@ -1,0 +1,13 @@
+name: aoc2019
+version: 0.1.0
+
+authors:
+  - Kai Leahy <canhascodez@gmail.com>
+
+targets:
+  aoc2019:
+    main: src/aoc2019.cr
+
+crystal: 0.31.1
+
+license: MIT
