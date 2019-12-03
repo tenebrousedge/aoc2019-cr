@@ -41,4 +41,7 @@ module FlightComputer
       end
     end
   end
+  def self.run(program)
+    Interpreter.new(program).execute
+  end
 end
