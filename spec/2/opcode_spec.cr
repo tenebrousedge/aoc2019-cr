@@ -1,7 +1,7 @@
 require "../../src/2/first.cr"
 
 describe FlightComputer do
-  it "adds and multiplies tings" do
+  it "adds and multiplies things" do
     FlightComputer.run([1, 0, 0, 0, 99]).should eq [2, 0, 0, 0, 99]
     FlightComputer.run([2,3,0,3,99]).should eq [2, 3, 0, 6, 99]
     FlightComputer.run([2,4,4,5,99,0]).should eq [2,4,4,5,99,9801]
